@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cechmanek.github.io
+Token: d62d24fd036dbc21702fd7879952d24e7224379db901a5cfebe3958c22f9fc8a
