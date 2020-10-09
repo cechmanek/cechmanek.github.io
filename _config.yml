@@ -1,4 +1,4 @@
-#theme: jekyll-theme-midnight
-remote_theme: rundocs/jekyll-rtd-theme
+theme: jekyll-theme-midnight
+#remote_theme: rundocs/jekyll-rtd-theme
 include:
  - .well-known
