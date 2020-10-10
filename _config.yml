@@ -164,4 +164,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+include:
+  - .well-known
+
 destination: ./build
