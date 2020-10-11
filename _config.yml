@@ -58,14 +58,27 @@ author_work_experiences:
               description: Designed wearable exoskeletons to enhance human mobility
               visibility: true
 
-
 author_education_details:
               - college_logo: waterloo_logo.png
                 college_name: University of Waterloo
                 college_url: https://uwaterloo.ca
-                college_degree: Mechanical & Mechatronics Engineer
+                college_degree: Mechanical & Mechatronics Engineering
                 description: Masters of Applied Science 
                 visibility: true
+              - college_logo: ucalgary_logo.png
+                college_name: University of Calgary
+                college_url: https://ucalgary.ca
+                college_degree: Mechanical Engineering, Mechatronics Minor
+                description: Bachelors of Science 
+                visibility: true
+              - college_logo: ucalgary_logo.png
+                college_name: University of Calgary
+                college_url: https://ucalgary.ca
+                college_degree: Psychology
+                description: Bachelors of Arts 
+                visibility: true
+
+
 
 #author_project_details:
 #              - project_thumbnail: gamershub.png
