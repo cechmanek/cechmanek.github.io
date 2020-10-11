@@ -43,8 +43,21 @@ author_work_experiences:
               company_logo: bright_machines_logo.png
               company_url: https://brightmachines.com
               designation: Senior Applied Scientist
-              description: Worked on various Azure Cloud Products
+              description: Brought deep neural networks to manufactoring automation
               visibility: true
+             - company_name: Piaggio Fast Forward
+              company_logo: piaggio_fast_forward_logo.jpg
+              company_url: https://piaggiofastforward.com
+              designation: Computer Vision Engineer 
+              description: Made robots play nice with people 
+              visibility: true
+           - company_name: Dephy
+              company_logo: dephy_log.jpg
+              company_url: https://piaggiofastforward.com
+              designation: Lead Software & Controls Engineer 
+              description: Designed wearable exoskeletons to enhance human mobility
+              visibility: true
+
 
 author_education_details:
               - college_logo: waterloo_logo.png
@@ -84,7 +97,7 @@ linkedin_username: Grant Justin Cechmanek
 # hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-# wakatime_username: sujaykundu777
+wakatime_username: cechmanek
 
 # mailchimp embedded form url (newsletter):
 # mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
