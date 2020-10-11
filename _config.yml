@@ -45,13 +45,13 @@ author_work_experiences:
               designation: Senior Applied Scientist
               description: Brought deep neural networks to manufactoring automation
               visibility: true
-             - company_name: Piaggio Fast Forward
+            - company_name: Piaggio Fast Forward
               company_logo: piaggio_fast_forward_logo.jpg
               company_url: https://piaggiofastforward.com
               designation: Computer Vision Engineer 
               description: Made robots play nice with people 
               visibility: true
-           - company_name: Dephy
+            - company_name: Dephy
               company_logo: dephy_log.jpg
               company_url: https://piaggiofastforward.com
               designation: Lead Software & Controls Engineer 
