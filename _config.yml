@@ -78,7 +78,7 @@ author_education_details:
                 description: Bachelors of Arts 
                 visibility: true
 
-#author_project_details:
+author_project_details:
               - project_thumbnail: monocle_logo.png
                 project_title: Monocle 
                 project_description: A computer vision library in Rust, for Rust 
