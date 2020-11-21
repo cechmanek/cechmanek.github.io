@@ -1,0 +1,33 @@
+Topics
+Geometry & Camera Models
+  - Linear Algebra
+  - Image Formation
+  - Lens Distortion & Correction
+
+3D Geometric reconstruction
+  - Single Image Reconstruction
+  - Stereo Image Reconstruction
+  - N View Reconstruction
+
+Digital Images
+  - Black and White Images
+  - Morphology on Black and White Images
+  - Points, Lines, Shapes, Contours
+  - Grayscale Images
+    - Digital Image Formation
+    - Thresholds, Graph Cut
+    - Spectral Image Processing
+  - Color Spaces
+  - Bayer Filters and Debayering
+  - Uses of Color
+
+Machine Learning with Images
+  - Feature Descriptors
+  - Classification Models
+
+Deep Learning with Images
+  - Feed Forward Neural Networks
+  - Convolutional Neural Networks
+  - Applications: Neural Style Transfer
+  - Applications: Generative Adversarial Networks
+
