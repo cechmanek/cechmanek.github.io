@@ -52,7 +52,7 @@ author_work_experiences:
               description: Made robots play nice with people 
               visibility: true
             - company_name: Dephy
-              company_logo: dephy_logo.jpg
+              company_logo: dephy_logo.png
               company_url: https://dephy.com
               designation: Lead Software & Controls Engineer 
               description: Designed wearable exoskeletons to enhance human mobility
