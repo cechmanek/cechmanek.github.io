@@ -34,7 +34,7 @@ typewrite-text: Check out some of my projects.
 
 author_work_experiences:
             - company_name: Venmo
-              company_logo: venmo_logo.jpg
+              company_logo: venmo_logo.png
               company_url: https://venmo.com
               designation: Staff Applied Scientist 
               description: It's top secret 
