@@ -84,7 +84,7 @@ author_project_details:
                 project_description: A computer vision library in Rust, for Rust 
                 project_url: https://cechmanek.github.io/monocle
                 visibility: true
-              - project_thumbnail: spectacles_logo.jpg
+              - project_thumbnail: spectacles_logo.png
                 project_title: Spectacles
                 project_description: A computer vision library in Go, for Go
                 project_url: https://cechmanek.github.io/spectacles
