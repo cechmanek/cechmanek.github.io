@@ -79,12 +79,12 @@ author_education_details:
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: monocle_logo_nobackground.png
+              - project_thumbnail: monocle_logo_no_background.png
                 project_title: Monocle 
                 project_description: A computer vision library in Rust, for Rust 
                 project_url: https://cechmanek.github.io/monocle
                 visibility: true
-              - project_thumbnail: spectacles_logo_nobackground.png
+              - project_thumbnail: spectacles_logo_no_background.png
                 project_title: Spectacles
                 project_description: A computer vision library in Go, for Go
                 project_url: https://cechmanek.github.io/spectacles
