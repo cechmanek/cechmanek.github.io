@@ -1,0 +1,4 @@
+baseURL = 'https://cechmanek.github.io/'
+languageCode = 'en-us'
+title = 'Building AI for the next generation'
+theme = 'ananke'
