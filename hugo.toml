@@ -2,3 +2,15 @@ baseURL = 'https://cechmanek.github.io/'
 languageCode = 'en-us'
 title = 'Building AI for the next generation'
 theme = 'ananke'
+
+
+# explicitly set default values
+assetDir = 'assets'
+buildDrafts = false
+buildExpired = false
+buildFuture = false
+cleanDestinationDir = false
+contentDir = 'content'
+dataDir = 'data'
+layoutDir = 'layouts'
+publishDir = 'public'

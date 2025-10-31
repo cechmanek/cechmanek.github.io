@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/cechmanek/Documents/Projects/cechmanek.github.io/quickstart",
+	"sourceRoot": "/Users/cechmanek/Documents/Projects/cechmanek.github.io",
 	"sources": [
 		"ananke/css/main.css"
 	],
