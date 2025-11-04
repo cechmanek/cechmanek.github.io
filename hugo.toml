@@ -3,6 +3,18 @@ languageCode = 'en-us'
 title = 'Building AI for the next generation'
 theme = 'ananke'
 
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 20
+
 
 # explicitly set default values
 assetDir = 'assets'
