@@ -1,3 +1,9 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/.hugo_build.lock
+
+# Misc
 _site/
 .sass-cache/
 .jekyll-cache/
