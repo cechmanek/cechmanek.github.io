@@ -1,8 +1,8 @@
 section:
-  name: Featured Posts
+  name: Recent writing
   id: featured-posts
   enable: true
-  weight: 7
+  weight: 3
   showOnNavbar: false
   template: sections/featured-posts.html
 

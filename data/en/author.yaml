@@ -8,7 +8,7 @@ contactInfo:
   linkedin: justin-cechmanek
 
 summary:
-  - Senior Applied AI Engineer building the real-time context layer for LLM agents
-  - I design semantic caching, agent memory, and vector search systems
-  - Computer vision and robotics background — I've made robots walk and see
-  - I write open-source tools and occasionally research papers
+  - I build the real-time context layer for AI agents — semantic caching, agent memory, vector search
+  - I've made robots walk, see, and follow people around
+  - I write open-source software and the occasional research paper
+  - Currently deep in LLMs and agent infrastructure at Redis

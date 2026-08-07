@@ -1,8 +1,8 @@
 section:
-  name: Publications
+  name: Writing & research
   id: publications
   enable: true
-  weight: 6
+  weight: 4
   showOnNavbar: true
 
 buttons:

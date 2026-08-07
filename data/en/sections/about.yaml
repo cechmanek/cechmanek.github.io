@@ -12,9 +12,9 @@ company:
   url: "https://redis.io"
 
 summary: >-
-  I'm a Senior Applied AI Engineer at [Redis](https://redis.io), where I build [RedisVL](https://github.com/redis/redis-vl) — the Redis Vector Library that turns Redis into a real-time context engine for LLM and agentic-AI workloads: semantic caching, contextual chat history, semantic routing, and agent memory.
+  I'm Justin. I like building software that makes AI feel less like a demo and more like something you can actually run — fast, cheap, and reliable in production. That's the thread running through my career, whether I was teaching robots to see and follow people at [Piaggio Fast Forward](https://piaggiofastforward.com), strapping brains onto wearable exoskeletons at [Dephy](https://dephy.com), or wiring up graph learning for search at [Venmo](https://venmo.com).
 
-  Before LLMs, I spent years in computer vision and robotics — from self-localizing robots at [Piaggio Fast Forward](https://piaggiofastforward.com) to wearable exoskeletons at [Dephy](https://dephy.com) to graph learning for search & recommendations at [Venmo](https://venmo.com). I've also published research on making semantic caching for LLMs faster and cheaper.
+  These days I work at [Redis](https://redis.io) on [RedisVL](https://github.com/redis/redis-vl) — the vector library that turns Redis into the real-time context engine for LLM and agentic-AI workloads: semantic caching, contextual chat history, semantic routing, and agent memory. I also write research papers when one gets stubborn enough, and I write blog posts when the code has something to say.
 
 socialLinks:
 - name: Email

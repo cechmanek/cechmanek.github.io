@@ -1,8 +1,8 @@
 section:
-  name: Skills
+  name: What I work with
   id: skills
   enable: true
-  weight: 2
+  weight: 6
   showOnNavbar: true
   filter: true
 

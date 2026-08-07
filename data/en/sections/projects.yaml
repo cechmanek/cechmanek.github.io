@@ -1,8 +1,8 @@
 section:
-  name: Projects
+  name: What I'm building
   id: projects
   enable: true
-  weight: 5
+  weight: 2
   showOnNavbar: true
 
 buttons:
