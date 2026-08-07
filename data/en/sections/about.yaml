@@ -1,0 +1,38 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Senior Applied AI Engineer
+company:
+  name: Redis
+  url: "https://redis.io"
+
+summary: >-
+  I'm a Senior Applied AI Engineer at [Redis](https://redis.io), where I build [RedisVL](https://github.com/redis/redis-vl) — the Redis Vector Library that turns Redis into a real-time context engine for LLM and agentic-AI workloads: semantic caching, contextual chat history, semantic routing, and agent memory.
+
+  Before LLMs, I spent years in computer vision and robotics — from self-localizing robots at [Piaggio Fast Forward](https://piaggiofastforward.com) to wearable exoskeletons at [Dephy](https://dephy.com) to graph learning for search & recommendations at [Venmo](https://venmo.com). I've also published research on making semantic caching for LLMs faster and cheaper.
+
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "gj.cechmanek@gmail.com"
+
+- name: GitHub
+  icon: "fab fa-github"
+  url: "https://github.com/cechmanek"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/justin-cechmanek/"
+
+- name: Hugging Face
+  icon: "fab fa-hugging-face"
+  url: "https://huggingface.co/cechmanek"
+
+resourceLinks:
+- title: "Publications"
+  url: "#publications"

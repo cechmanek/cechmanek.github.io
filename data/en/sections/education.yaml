@@ -1,0 +1,41 @@
+section:
+  name: Education
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: M.A.Sc. in Mechanical & Mechatronics Engineering
+  icon: fa-microscope
+  timeframe: 2014-2016
+  institution:
+    name: University of Waterloo
+    url: "https://uwaterloo.ca"
+    logo: /images/sections/education/waterloo.png
+  customSections:
+  - name: Focus
+    content: Robotics, controls, and mechatronic systems design.
+
+- name: B.Sc. in Mechanical Engineering (Mechatronics Minor)
+  icon: fa-gears
+  timeframe: 2009-2014
+  institution:
+    name: University of Calgary
+    url: "https://ucalgary.ca"
+    logo: /images/sections/education/ucalgary.jpg
+  customSections:
+  - name: Focus
+    content: Mechanical engineering with a mechatronics minor.
+
+- name: B.A. in Psychology
+  icon: fa-brain
+  timeframe: 2009-2014
+  institution:
+    name: University of Calgary
+    url: "https://ucalgary.ca"
+    logo: /images/sections/education/ucalgary.jpg
+  customSections:
+  - name: Focus
+    content: Cognitive science and human behavior.

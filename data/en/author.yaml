@@ -1,0 +1,14 @@
+name: "Justin Cechmanek"
+nickname: "Justin"
+greeting: "Hi, I'm"
+image: "images/author/profile.png"
+contactInfo:
+  email: "gj.cechmanek@gmail.com"
+  github: cechmanek
+  linkedin: justin-cechmanek
+
+summary:
+  - Senior Applied AI Engineer building the real-time context layer for LLM agents
+  - I design semantic caching, agent memory, and vector search systems
+  - Computer vision and robotics background — I've made robots walk and see
+  - I write open-source tools and occasionally research papers

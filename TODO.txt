@@ -1,0 +1,33 @@
+# Personal Site — Build TODO
+Priorities: P0 = foundation/identity, P1 = content, P2 = quality/CI, P3 = polish.
+
+## P0 — Foundation & identity (uniqueness)
+- [x] Bump Hugo to 0.163.0+ (brew + CI workflow)
+- [x] Switch theme Ananke → TOHA v4 (Hugo module; update .gitmodules/theme setup)
+- [ ] Customize TOHA: color scheme + fonts via documented CSS override hooks
+- [ ] Custom hero / homepage — personalized intro, AI focus, distinctive layout
+- [ ] Custom sections beyond stock (e.g. "What I'm building", featured talks)
+
+## P1 — Content (portfolio substance)
+- [ ] About page — bio from README + legacy site (RedisVL, AI engineer, past roles)
+- [ ] Skills inventory (Python, Go, Rust, computer vision, LLM/agent tooling, …)
+- [ ] Experience timeline — Venmo, Bright Machines, Piaggio, Dephy, Redis (legacy data)
+- [ ] Education — Waterloo (MASc), Calgary (BSc Eng, BA Psych)
+- [ ] Projects — RedisVL, Monocle, Spectacles, semantic caching (links + logos)
+- [ ] Publications page — arXiv:2504.02268, Redis blog author profile
+- [ ] Professional links — GitHub, LinkedIn, Hugging Face, RSS (header/footer)
+
+## P2 — Blog
+- [ ] Set up posts workflow (archetype, categories/tags)
+- [ ] Migrate 2 legacy posts (Spectacles, Monocle intros)
+- [ ] Write first new posts (AI/semantic caching/agent memory topics)
+
+## P3 — Quality / CI & test coverage
+- [ ] CI: build-check on all PRs (not just push to main)
+- [ ] Link checker in CI (internal + external links)
+- [ ] Fail-on-warning build flag so broken content doesn't ship
+- [ ] Makefile/scripts: `make build`, `make check`, `make serve`
+- [ ] SEO: sitemap, meta description, Open Graph
+- [ ] Favicon + social share image
+- [ ] 404 page; RSS feed
+- [ ] README: document todo lifecycle + how to add posts

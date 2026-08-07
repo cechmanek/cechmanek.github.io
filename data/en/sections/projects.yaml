@@ -1,0 +1,45 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: AI
+  filter: "ai"
+- name: Computer Vision
+  filter: "cv"
+
+projects:
+- name: RedisVL
+  role: Maintainer
+  timeline: "2024 - Present"
+  repo: https://github.com/redis/redis-vl
+  summary: "High-level Python library that turns Redis into a real-time context engine for LLM and agentic-AI workloads — semantic caching, semantic routing, contextual chat history, and agent memory."
+  tags: ["ai", "vector-search", "rag", "redis"]
+
+- name: Semantic Caching for LLMs
+  role: Co-author
+  timeline: "2024 - 2025"
+  url: "https://arxiv.org/abs/2504.02268"
+  summary: "Research on reducing LLM cost and latency via embedding-based response reuse, using domain-specific embeddings and synthetic data."
+  tags: ["ai", "research", "llm"]
+
+- name: Monocle
+  logo: /images/sections/projects/monocle.png
+  role: Author
+  timeline: "2019 - 2020"
+  url: "https://cechmanek.github.io/monocle"
+  summary: "A computer vision library in Rust, for Rust."
+  tags: ["cv", "rust"]
+
+- name: Spectacles
+  logo: /images/sections/projects/spectacles.png
+  role: Author
+  timeline: "2019 - 2020"
+  url: "https://cechmanek.github.io/spectacles"
+  summary: "A computer vision library in Go, for Go."
+  tags: ["cv", "go"]

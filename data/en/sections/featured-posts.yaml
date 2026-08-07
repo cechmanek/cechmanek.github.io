@@ -1,0 +1,11 @@
+section:
+  name: Featured Posts
+  id: featured-posts
+  enable: true
+  weight: 7
+  showOnNavbar: false
+  template: sections/featured-posts.html
+
+# Filtering posts by featured tag. If you want to feature all posts, set to empty.
+featuredPostsFilter:
+  - tag: featured

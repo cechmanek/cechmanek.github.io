@@ -1,0 +1,21 @@
+copyright: "© 2026 Justin Cechmanek."
+
+description: "Justin Cechmanek — Senior Applied AI Engineer. I build the real-time context layer for LLM agents: semantic caching, vector search, and agent memory."
+
+customMenus:
+- name: GitHub
+  url: https://github.com/cechmanek
+  hideFromNavbar: false
+  showOnFooter: true
+
+- name: LinkedIn
+  url: https://www.linkedin.com/in/justin-cechmanek/
+  hideFromNavbar: false
+  showOnFooter: true
+
+openGraph:
+  title: Justin Cechmanek
+  type: website
+  description: "Senior Applied AI Engineer building the real-time context layer for LLM agents."
+  image: images/author/profile.png
+  url: https://cechmanek.github.io

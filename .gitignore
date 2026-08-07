@@ -3,6 +3,13 @@
 /resources/_gen/
 /.hugo_build.lock
 
+# Node (TOHA npm deps)
+node_modules/
+packages/
+
+# Hugo module tooling artifacts
+assets/jsconfig.json
+
 # Misc
 _site/
 .sass-cache/

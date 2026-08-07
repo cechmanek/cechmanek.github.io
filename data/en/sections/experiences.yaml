@@ -1,0 +1,78 @@
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: Redis
+    url: "https://redis.io"
+    location: Seattle, Washington
+    logo: /images/sections/experiences/redis.png
+    overview: Redis builds the real-time data platform powering the AI and agent economy. I lead applied AI work on RedisVL, the Redis Vector Library.
+  positions:
+  - designation: Senior Applied AI Engineer
+    start: 2024
+    responsibilities:
+    - Build and maintain [RedisVL](https://github.com/redis/redis-vl), the open-source Redis Vector Library for LLM and agentic-AI workloads.
+    - Design semantic caching, semantic routing, and conversational/agent memory abstractions on Redis.
+    - Contribute to Redis Agent Memory Server and integrations with LangChain, LangGraph, LlamaIndex, and NVIDIA NeMo.
+    - Co-author research on [semantic caching for LLMs](https://arxiv.org/abs/2504.02268).
+
+- company:
+    name: Venmo
+    url: "https://venmo.com"
+    location: New York, New York
+    logo: /images/sections/experiences/venmo.png
+    overview: Venmo is a peer-to-peer payments platform and part of PayPal. I led ML for search & recommendations.
+  positions:
+  - designation: Staff Applied Scientist / ML Engineering Lead
+    start: 2021
+    end: 2024
+    responsibilities:
+    - Led ML engineering for search and recommendations on the graph.
+    - Designed and shipped graph learning and ranking systems at scale.
+
+- company:
+    name: Bright Machines
+    url: "https://brightmachines.com"
+    location: San Francisco, California
+    logo: /images/sections/experiences/bright-machines.png
+    overview: Bright Machines builds software-defined manufacturing automation.
+  positions:
+  - designation: Senior Applied Scientist
+    start: 2019
+    end: 2021
+    responsibilities:
+    - Brought deep neural networks to manufacturing automation.
+    - Built perception and inspection systems for production robotics.
+
+- company:
+    name: Piaggio Fast Forward
+    url: "https://piaggiofastforward.com"
+    location: Boston, Massachusetts
+    logo: /images/sections/experiences/piaggio-fast-forward.png
+    overview: Piaggio Fast Forward builds the Gita line of personal cargo robots that follow their owner.
+  positions:
+  - designation: Computer Vision Engineer
+    start: 2018
+    end: 2019
+    responsibilities:
+    - Made robots play nice with people — vision and autonomy for the Gita robot.
+    - Built tracking, localization, and perception systems for personal robotics.
+
+- company:
+    name: Dephy
+    url: "https://dephy.com"
+    location: Boston, Massachusetts
+    logo: /images/sections/experiences/dephy.png
+    overview: Dephy designs wearable exoskeletons that enhance human mobility.
+  positions:
+  - designation: Lead Software & Controls Engineer
+    start: 2016
+    end: 2018
+    responsibilities:
+    - Designed wearable exoskeletons to enhance human mobility.
+    - Led software and real-time controls engineering across the platform.

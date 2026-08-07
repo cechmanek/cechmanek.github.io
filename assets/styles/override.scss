@@ -1,0 +1,31 @@
+/* Custom overrides for cechmanek.github.io */
+
+/* Distinctive heading font: swap the theme default for something with character */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap');
+
+h1, h2, h3, h4, h5, h6,
+.greeting, .greeting-subtitle, .card-title, .company-heading h5 {
+  font-family: 'Sora', system-ui, -apple-system, sans-serif;
+}
+
+/* Slightly tighter, more modern letter-spacing on headings */
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+/* Soften the default card shadow */
+.card {
+  box-shadow: 0 4px 20px rgba(15, 80, 100, 0.10);
+  border-radius: 12px;
+}
+
+/* Rounded accent on the navbar brand */
+.navbar-brand {
+  font-weight: 700;
+}
+
+/* Home greeting emphasis */
+.greeting {
+  font-weight: 700;
+  font-size: 3rem;
+}

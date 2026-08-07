@@ -1,0 +1,69 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: Languages
+  filter: "language"
+- name: AI / ML
+  filter: "ai"
+- name: Infra
+  filter: "infra"
+- name: Other
+  filter: "other"
+
+skills:
+- name: Python
+  icon: "fa-brands fa-python"
+  summary: "Primary language for AI/ML engineering — I build production libraries and agent tooling with it."
+  categories: ["language", "ai"]
+  url: "https://www.python.org/"
+
+- name: Go
+  icon: "fa-brands fa-golang"
+  summary: "Built Spectacles, a computer vision library in Go. Great for fast, concurrent systems."
+  categories: ["language"]
+  url: "https://go.dev/"
+
+- name: Rust
+  icon: "fa-brands fa-rust"
+  summary: "Built Monocle, a computer vision library in Rust. Strong safety and performance."
+  categories: ["language"]
+  url: "https://www.rust-lang.org/"
+
+- name: Semantic Caching
+  icon: "fa-solid fa-bolt"
+  summary: "Co-authored research on reducing LLM cost/latency via embedding-based response reuse."
+  categories: ["ai"]
+  url: "https://arxiv.org/abs/2504.02268"
+
+- name: Vector Search
+  icon: "fa-solid fa-magnifying-glass"
+  summary: "Vector search and RAG infrastructure built on Redis with RedisVL."
+  categories: ["ai", "infra"]
+
+- name: Computer Vision
+  icon: "fa-solid fa-eye"
+  summary: "Deep learning for perception, object detection, and robot vision across several product teams."
+  categories: ["ai"]
+
+- name: Redis
+  icon: "fa-solid fa-database"
+  summary: "Realtime data infrastructure — in-memory short-term memory and context engines for agents."
+  categories: ["infra"]
+
+- name: LLM / Agent Tooling
+  icon: "fa-solid fa-robot"
+  summary: "LangChain, LangGraph, LlamaIndex integrations and agent memory backends."
+  categories: ["ai"]
+
+- name: Robotics & Controls
+  icon: "fa-solid fa-gears"
+  summary: "Wearable exoskeletons, mobile robots, and mechatronic systems engineering."
+  categories: ["other"]

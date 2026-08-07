@@ -1,0 +1,44 @@
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: Research
+  filter: "research"
+- name: Engineering
+  filter: "engineering"
+
+publications:
+- title: Advancing Semantic Caching for LLMs with Domain-Specific Embeddings and Synthetic Data
+  publishedIn:
+    name: arXiv
+    date: April 2025
+    url: https://arxiv.org/abs/2504.02268
+  authors:
+  - name: Justin Cechmanek
+  - name: Warren
+    url: https://github.com/warrengers
+  paper:
+    summary: "Research on reducing LLM cost and latency via embedding-based response reuse. We show that domain-specific embeddings and synthetic training data substantially improve semantic cache hit rates."
+    url: https://arxiv.org/abs/2504.02268
+  categories: ["research"]
+  tags: ["LLM", "Semantic Caching", "Embeddings"]
+
+- name: Redis Blog
+  title: Redis Blog Author Profile
+  publishedIn:
+    name: Redis Blog
+    date: "2024 - Present"
+    url: https://redis.io/blog/author/justin-cechmanek/
+  authors:
+  - name: Justin Cechmanek
+  paper:
+    summary: "Technical deep dives on semantic caching, agent memory, vector search, and building real-time context engines for AI with Redis."
+    url: https://redis.io/blog/author/justin-cechmanek/
+  categories: ["engineering"]
+  tags: ["Redis", "RAG", "Agents"]
