@@ -29,3 +29,15 @@ h1, h2, h3 {
   font-weight: 700;
   font-size: 3rem;
 }
+
+/* Section pages: drop the empty toc column so content fills the width */
+body.type-section-page {
+  .wrapper .content-section {
+    flex: 80%;
+    max-width: 80%;
+  }
+  .toc-section {
+    flex: 0;
+    max-width: 0;
+  }
+}

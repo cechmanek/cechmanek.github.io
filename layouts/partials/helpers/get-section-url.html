@@ -1,0 +1,9 @@
+{{- $sectionID := partial "helpers/get-section-id.html" . -}}
+{{- $page := where site.RegularPages "Params.sectionID" $sectionID -}}
+{{- if $page -}}
+  {{- (index $page 0).RelPermalink -}}
+{{- else if page.IsHome -}}
+  #{{ $sectionID }}
+{{- else -}}
+  {{ site.BaseURL | relLangURL }}#{{ $sectionID }}
+{{- end -}}

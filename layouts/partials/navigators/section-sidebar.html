@@ -1,0 +1,30 @@
+{{ $sections := hugo.Data.sections }}
+{{ if (index hugo.Data site.Language.Lang).sections }}
+  {{ $sections = (index hugo.Data site.Language.Lang).sections }}
+{{ end }}
+
+<section class="sidebar-section" id="sidebar-section">
+  <div class="sidebar-holder">
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-tree">
+        <ul class="tree" id="tree">
+          <li id="list-heading"><a href="{{ "" | relLangURL }}">{{ i18n "home" }}</a></li>
+          <div class="subtree">
+            {{ range sort $sections "section.weight" }}
+              {{ if .section.enable }}
+                {{ $url := partial "helpers/get-section-url.html" . }}
+                {{ $class := "" }}
+                {{ if eq $url page.RelPermalink }}
+                  {{ $class = "active" }}
+                {{ end }}
+                <li>
+                  <a class="list-link {{ $class }}" href="{{ $url }}">{{ .section.name }}</a>
+                </li>
+              {{ end }}
+            {{ end }}
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

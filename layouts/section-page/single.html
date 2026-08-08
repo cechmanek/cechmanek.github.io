@@ -1,0 +1,38 @@
+{{ define "header" }}
+<meta name="description" content="{{ .Params.description | default .Title }}" />
+{{ end }}
+
+{{ define "navbar" }}
+{{ partial "navigators/navbar.html" . }}
+{{ end }}
+
+{{ define "sidebar" }}
+{{ partial "navigators/section-sidebar.html" . }}
+{{ end }}
+
+{{ define "content" }}
+<section class="content-section" id="content-section">
+  <div class="content">
+    {{ $sections := hugo.Data.sections }}
+    {{ if (index hugo.Data site.Language.Lang).sections }}
+      {{ $sections = (index hugo.Data site.Language.Lang).sections }}
+    {{ end }}
+    {{ $sectionID := .Params.sectionID }}
+    {{ range sort $sections "section.weight" }}
+      {{ if and .section.enable (eq .section.id $sectionID) }}
+        <div class="container-fluid section-holder d-flex bg-primary">
+          {{ if .section.template }}
+            {{- partial .section.template . -}}
+          {{ else }}
+            {{- partial (printf "sections/%s.html" (replace (lower .section.id) " " "-")) . -}}
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ define "toc" }}
+<section class="toc-section" id="toc-section"></section>
+{{ end }}
