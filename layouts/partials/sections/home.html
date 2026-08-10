@@ -52,65 +52,13 @@
 {{ $medium := $src.Resize $mediumw }}
 {{ $large := $src.Resize $largew }}
 
-{{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
-{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
-
-{{ if lt $src.Width "500" }}
-{{ $tiny := $src}}
-{{ $small := $src}}
-{{ $medium := $src}}
-{{ $large := $src}}
-{{ end }}
-
-{{ if lt $src.Width "800" }}
-{{ $small := $src}}
-{{ $medium := $src}}
-{{ $large := $src}}
-{{ end }}
-
-{{ if lt $src.Width "1200" }}
-{{ $medium := $src}}
-{{ $large := $src}}
-{{ end }}
-
-{{ if lt $src.Width "1500" }}
-{{ $large := $src}}
-{{ end }}
-
-{{/* get file that matches the filename as specified as src="" in shortcode */}}
+{{/* resize to fixed widths; Hugo does not upscale, so small sources fall through to their original size automatically */}}
 {{ $darkSrc := resources.Get $darkBackgroundImage }}
-
-{{/* resize the src image to the given sizes */}}
 
 {{ $darkTiny := $darkSrc.Resize $tinyw }}
 {{ $darkSmall := $darkSrc.Resize $smallw }}
 {{ $darkMedium := $darkSrc.Resize $mediumw }}
 {{ $darkLarge := $darkSrc.Resize $largew }}
-
-{{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
-{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
-
-{{ if lt $darkSrc.Width "500" }}
-{{ $darkTiny := $src}}
-{{ $darkSmall := $src}}
-{{ $darkMedium := $src}}
-{{ $darkLarge := $src}}
-{{ end }}
-
-{{ if lt $src.Width "800" }}
-{{ $darkSmall := $src}}
-{{ $darkMedium := $src}}
-{{ $darkLarge := $src}}
-{{ end }}
-
-{{ if lt $src.Width "1200" }}
-{{ $darkMedium := $src}}
-{{ $darkLarge := $src}}
-{{ end }}
-
-{{ if lt $src.Width "1500" }}
-{{ $darkLarge := $src}}
-{{ end }}
 
 <div class="container-fluid home" id="home">
   <style>
