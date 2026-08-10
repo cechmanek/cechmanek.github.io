@@ -19,6 +19,16 @@ h1, h2, h3 {
   border-radius: 12px;
 }
 
+/* Nudge the fixed navbar below the browser chrome */
+.top-navbar {
+  top: 12px;
+}
+
+/* Fix nav links being pulled up by the theme's negative margin */
+.top-navbar .navbar-collapse {
+  margin-top: 0;
+}
+
 /* Rounded accent on the navbar brand */
 .navbar-brand {
   font-weight: 700;
