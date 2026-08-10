@@ -54,8 +54,5 @@
     "plyr": "^3.7.2",
     "popper.js": "^1.16.1",
     "typeit": "^8.8.7"
-  },
-  "workspaces": [
-    "packages/hugoautogen"
-  ]
+  }
 }
