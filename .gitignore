@@ -16,3 +16,11 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 notes.txt
+
+# Agent workspace files (keep local, don't publish)
+/AGENTS.md
+/HEARTBEAT.md
+/SOUL.md
+/USER.md
+/openclaw-workspace-state.json
+/memory/
