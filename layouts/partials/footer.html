@@ -3,7 +3,6 @@
 {{ $navigationEnabled  := site.Params.footer.navigation.enable  | default true }}
 {{ $contactMeEnabled   := site.Params.footer.contactMe.enable   | default true }}
 {{ $credentialsEnabled := site.Params.footer.credentials.enable | default true }}
-{{ $disclaimerEnabled  := site.Params.footer.disclaimer.enable  | default false }}
 
 {{ if $footerEnabled }}
   {{ $author:= hugo.Data.author }}
@@ -22,13 +21,6 @@
     {{ if $siteConfig.copyright }}
       {{ $copyrightNotice = $siteConfig.copyright }}
     {{ end }}
-  {{ end }}
-
-
-  {{ $disclaimer := "" }}
-  {{ $siteConfig := (index hugo.Data site.Language.Lang).site }}
-  {{ if $siteConfig.disclaimer }}
-    {{ $disclaimer = $siteConfig.disclaimer }}
   {{ end }}
 
   {{/*  footer logos  */}}
@@ -119,12 +111,6 @@
         {{ end }}
       </div>
     </div>
-    {{ if and $disclaimerEnabled $disclaimer}}
-    <hr />
-    <div class="container">
-      <p id="disclaimer"><strong>{{ i18n "disclaimer_text" }}:</strong> {{ $disclaimer | markdownify }}</p>
-    </div>
-    {{ end }}
     {{ if $credentialsEnabled }}
     <hr />
     <div class="container">

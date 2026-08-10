@@ -88,5 +88,3 @@ enableEmoji = true
   enable = true
 [params.footer.newsletter]
   enable = false
-[params.footer.disclaimer]
-  enable = false
