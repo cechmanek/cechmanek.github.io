@@ -1,7 +1,6 @@
 {{/*  variables for enabling/disabling parts of the footer  */}}
 {{ $footerEnabled      := site.Params.footer.enable             | default true }}
 {{ $navigationEnabled  := site.Params.footer.navigation.enable  | default true }}
-{{ $customMenusEnabled := site.Params.footer.navigation.customMenus | default true }}
 {{ $contactMeEnabled   := site.Params.footer.contactMe.enable   | default true }}
 {{ $newsletterEnabled  := site.Params.footer.newsletter.enable  | default true }}
 {{ $credentialsEnabled := site.Params.footer.credentials.enable | default true }}
@@ -25,11 +24,6 @@
   {{ $sections:= hugo.Data.sections }}
   {{ if (index hugo.Data site.Language.Lang).sections }}
     {{ $sections = (index hugo.Data site.Language.Lang).sections }}
-  {{ end }}
-
-  {{ $customMenus := site.Params.customMenus }}
-  {{ if (index hugo.Data site.Language.Lang).site.customMenus }}
-    {{ $customMenus = (index hugo.Data site.Language.Lang).site.customMenus }}
   {{ end }}
 
   {{ $copyrightNotice := now.Format "2006" | printf "© %s Copyright."}}
@@ -83,15 +77,6 @@
                 </li>
               {{ end }}
             {{- end }}
-            {{ if $customMenusEnabled }}
-              {{ range $customMenus }}
-                {{ if .showOnFooter }}
-                    <li class="nav-item">
-                      <a class="smooth-scroll" href="{{ .url }}">{{ .name }}</a>
-                    </li>
-                {{ end }}
-              {{ end }}
-            {{ end }}
           </ul>
           {{ end }}
         </div>

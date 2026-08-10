@@ -82,7 +82,6 @@ enableEmoji = true
   enable = true
 [params.footer.navigation]
   enable = true
-  customMenus = true
 [params.footer.contactMe]
   enable = true
 [params.footer.credentials]
