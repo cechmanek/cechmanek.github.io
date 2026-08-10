@@ -1,20 +1,8 @@
 {{/*  variables for enabling/disabling parts of the footer  */}}
 {{ $footerEnabled      := site.Params.footer.enable             | default true }}
 {{ $navigationEnabled  := site.Params.footer.navigation.enable  | default true }}
-{{ $customMenusEnabled := site.Params.footer.navigation.customMenus | default true }}
 {{ $contactMeEnabled   := site.Params.footer.contactMe.enable   | default true }}
-{{ $newsletterEnabled  := site.Params.footer.newsletter.enable  | default true }}
 {{ $credentialsEnabled := site.Params.footer.credentials.enable | default true }}
-{{ $disclaimerEnabled  := site.Params.footer.disclaimer.enable  | default false }}
-
-{{/*  Keep backward compatibility for the newsletter function */}}
-{{ if site.Params.newsletter }}
-  {{ if site.Params.newsletter.enable }}
-    {{ $newsletterEnabled = true }}
-  {{ else }}
-      {{ $newsletterEnabled = false }}
-  {{ end }}
-{{ end }}
 
 {{ if $footerEnabled }}
   {{ $author:= hugo.Data.author }}
@@ -27,24 +15,12 @@
     {{ $sections = (index hugo.Data site.Language.Lang).sections }}
   {{ end }}
 
-  {{ $customMenus := site.Params.customMenus }}
-  {{ if (index hugo.Data site.Language.Lang).site.customMenus }}
-    {{ $customMenus = (index hugo.Data site.Language.Lang).site.customMenus }}
-  {{ end }}
-
   {{ $copyrightNotice := now.Format "2006" | printf "© %s Copyright."}}
   {{ if (index hugo.Data site.Language.Lang).site }}
     {{ $siteConfig := (index hugo.Data site.Language.Lang).site }}
     {{ if $siteConfig.copyright }}
       {{ $copyrightNotice = $siteConfig.copyright }}
     {{ end }}
-  {{ end }}
-
-
-  {{ $disclaimer := "" }}
-  {{ $siteConfig := (index hugo.Data site.Language.Lang).site }}
-  {{ if $siteConfig.disclaimer }}
-    {{ $disclaimer = $siteConfig.disclaimer }}
   {{ end }}
 
   {{/*  footer logos  */}}
@@ -186,12 +162,6 @@
         {{ end }}
       </div>
     </div>
-    {{ if and $disclaimerEnabled $disclaimer}}
-    <hr />
-    <div class="container">
-      <p id="disclaimer"><strong>{{ i18n "disclaimer_text" }}:</strong> {{ $disclaimer | markdownify }}</p>
-    </div>
-    {{ end }}
     {{ if $credentialsEnabled }}
     <hr />
     <div class="container">
